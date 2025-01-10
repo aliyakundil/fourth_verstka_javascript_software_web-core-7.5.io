@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/script.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.css"/>
+    <title>JavaScript в браузере</title>
+</head>
+<body>
+    <header>
+        <div class="title">
+            РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ
+        </div>
+    </header>
+
+    <main>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./img/lenovo.svg" alr=""></div>
+                <div class="swiper-slide"><img src="./img/samsung.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/apple.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/ViewSonic.svg" alr=""></div>
+                <div class="swiper-slide"><img src="./img/bosch.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/HP.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/acer.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/sony.svg" alr=""></div>
+                <div class="swiper-slide"><img src="./img/lenovo.svg" alr=""></div>
+                <div class="swiper-slide"><img src="./img/samsung.svg" alt=""></div>
+                <div class="swiper-slide"><img src="./img/apple.svg" alt=""></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <script src="./js/swiper-bundle.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+            // цикличный слайдер
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+
+            });
+        </script>
+    </main>
+</body>
+</html>

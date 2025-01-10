@@ -1,0 +1,14 @@
+body {
+    max-width: 320px;
+}
+
+/* @media screen and (min-width:768px) { */
+@media only screen and (min-width: 768px) {
+    body {
+        width: 100vh;
+    }
+
+    .swiper {
+        display: none;
+    }
+}
