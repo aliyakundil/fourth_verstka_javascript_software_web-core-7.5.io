@@ -6,7 +6,7 @@ body {
     display: none;
 }
 
-@media only screen and (min-width: 769px) { /*768*/
+@media only screen and (min-width: 768px) { 
     .swiper {
         height: auto !important; /* Устанавливаем авто-высоту */
         overflow: visible !important; /* Разрешаем показывать весь контент */
